@@ -128,13 +128,13 @@ const Projects = () => {
                     <div className="lg:w-80">
                       <div className="bg-gray-800/50 rounded-lg p-6 border border-gray-700 group-hover:border-gray-600 transition-all duration-300 hover:bg-gray-800/70">
                         <h4 className="text-lg font-semibold mb-4 flex items-center gap-2 group-hover:text-gray-200 transition-colors duration-300">
-                          <Zap size={18} className={`text-transparent bg-gradient-to-r ${projects[0].color} bg-clip-text group-hover:rotate-12 transition-transform duration-300`} />
+                          <Zap size={18} className={`text-transparent bg-gradient-to-r ${project.color} bg-clip-text group-hover:rotate-12 transition-transform duration-300`} />
                           Key Features
                         </h4>
                         <ul className="space-y-2">
-                          {projects[0].features.map((feature, featureIndex) => (
+                          {project.features.map((feature, featureIndex) => (
                             <li key={featureIndex} className="flex items-start gap-2 text-sm text-gray-300 group-hover:text-gray-200 group-hover:translate-x-2 transition-all duration-300">
-                              <div className={`w-1.5 h-1.5 rounded-full bg-gradient-to-r ${projects[0].color} mt-2 flex-shrink-0 group-hover:scale-125 transition-transform duration-300`}></div>
+                              <div className={`w-1.5 h-1.5 rounded-full bg-gradient-to-r ${project.color} mt-2 flex-shrink-0 group-hover:scale-125 transition-transform duration-300`}></div>
                               <span>{feature}</span>
                             </li>
                           ))}
@@ -144,9 +144,10 @@ const Projects = () => {
                   </div>
                 </div>
               </div>
+            ))}
 
               {/* Project 2 - Earthquake Prediction */}
-              <div className="group bg-black/30 border border-gray-800 rounded-lg overflow-hidden hover:border-gray-600 transition-all duration-300 hover:scale-[1.02] hover:bg-black/50">
+              {/* <div className="group bg-black/30 border border-gray-800 rounded-lg overflow-hidden hover:border-gray-600 transition-all duration-300 hover:scale-[1.02] hover:bg-black/50">
                 <div className="p-8">
                   <div className="flex flex-col lg:flex-row lg:items-start gap-8">
                     <div className="flex-1">
@@ -215,8 +216,14 @@ const Projects = () => {
                               <span>{feature}</span>
                             </li>
                           ))}
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div> */}
             {/* Project 1 - Mental Health Check-in */}
-            <div className="group bg-black/30 border border-gray-800 rounded-lg overflow-hidden hover:border-gray-600 transition-all duration-300 hover:scale-[1.02] hover:bg-black/50">
+            {/* <div className="group bg-black/30 border border-gray-800 rounded-lg overflow-hidden hover:border-gray-600 transition-all duration-300 hover:scale-[1.02] hover:bg-black/50">
               <div className="p-8">
                 <div className="flex flex-col lg:flex-row lg:items-start gap-8">
                   <div className="flex-1">
@@ -269,6 +276,11 @@ const Projects = () => {
                         <ExternalLink size={16} className="group-hover/btn:rotate-12 transition-transform duration-300" />
                         <span>Live Demo</span>
                       </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> */}
           </div>
 
           <div className="text-center mt-12">
