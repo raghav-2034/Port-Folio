@@ -80,20 +80,22 @@ const About = () => {
             <h3 className="text-2xl font-semibold mb-6 text-center group-hover:text-gray-200 transition-colors duration-300">My Journey</h3>
             <div className="text-gray-300 leading-relaxed space-y-4 group-hover:text-gray-200 transition-colors duration-300">
               <p>
-                Currently pursuing my Bachelor's degree in Computer Science & Engineering at Nalla Narsimha Reddy Group of Institutions, 
-                I'm in my final year and actively exploring the exciting world of technology.
+                Currently in my final year of Bachelor's in Computer Science & Engineering at Nalla Narasimha Reddy Group of Institutions, 
+                I specialize in Machine Learning, AI, and Data Science with hands-on experience in building data-driven solutions.
               </p>
               <p>
-                My academic journey has been marked by excellence, having scored 95% in MPC and qualifying for JEE-Mains with a 97.93 percentile. 
-                This strong foundation has fueled my passion for programming and problem-solving.
+                My expertise spans across ML, RAG (Retrieval-Augmented Generation), MERN stack, Flask, API development, 
+                and Cloud technologies including Docker and Oracle Cloud. I'm passionate about leveraging advanced NLP 
+                and Machine Learning models like BERT and GPT-3 for innovative applications.
               </p>
               <p>
-                I'm particularly drawn to AI/ML technologies and cloud computing, areas where I see immense potential for innovation. 
-                My experience spans full-stack development with the MERN stack, and I'm constantly expanding my skills in Java, C, Python, and SQL.
+                Currently pursuing Azure Data Analytics certification and holding Oracle's Data Science Professional Certificate, 
+                I'm deeply engaged in exploring the data science domain. My recent projects include an AI-Powered Legal Assistant 
+                with multilingual support and advanced document analysis capabilities.
               </p>
               <p>
-                Beyond academics, I've participated in hackathons like AI-Hack-Day where I was a finalist, demonstrating my ability to 
-                work under pressure and create innovative solutions. I believe in continuous learning and am always ready to take on new challenges.
+                As an AI-Hack-Day Finalist, I've demonstrated my ability to work under pressure and create innovative solutions. 
+                I believe in continuous learning and am always ready to tackle complex challenges in the rapidly evolving field of AI and Data Science.
               </p>
             </div>
           </div>

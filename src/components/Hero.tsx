@@ -40,7 +40,7 @@ const Hero = () => {
             </h1>
             
             <div className="text-xl md:text-2xl text-gray-300 mb-6 animate-fade-in-up animation-delay-400">
-              <span className="typing-animation">Full Stack Developer & AI/ML Enthusiast</span>
+              <span className="typing-animation">AI/ML Engineer & Data Science Professional</span>
             </div>
             
             <div className="flex items-center justify-center text-gray-400 mb-8 animate-fade-in-up animation-delay-600 hover:text-gray-300 transition-colors duration-300">
@@ -51,9 +51,9 @@ const Hero = () => {
           
           <div className="mb-12 animate-fade-in-up animation-delay-800">
             <p className="text-lg md:text-xl text-gray-300 leading-relaxed max-w-3xl mx-auto hover:text-gray-200 transition-colors duration-300">
-              Driven by curiosity and innovation, I thrive on solving complex problems and building impactful solutions. 
-              With a strong foundation in programming and a deep interest in AI/ML and cloud computing, 
-              I aim to bridge the gap between cutting-edge technology and real-world applications.
+              Final-year CSE student with expertise in Machine Learning, AI, and Data Science. Passionate about building 
+              impactful, data-driven solutions using advanced NLP, ML models, and cloud technologies. 
+              AI Hack Day Finalist with experience in developing cutting-edge applications that solve real-world problems.
             </p>
           </div>
 

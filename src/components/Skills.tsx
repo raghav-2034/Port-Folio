@@ -6,31 +6,31 @@ const Skills = () => {
     {
       title: 'Programming Languages',
       icon: <Code size={24} />,
-      skills: ['Java', 'C', 'Python', 'JavaScript', 'TypeScript'],
+      skills: ['Python', 'JavaScript', 'SQL', 'C', 'Go', 'HTML/CSS'],
       color: 'from-blue-600 to-blue-400'
     },
     {
-      title: 'Web Development',
+      title: 'Frameworks & Libraries',
       icon: <Wrench size={24} />,
-      skills: ['MERN Stack', 'React.js', 'Node.js', 'Express.js', 'HTML/CSS'],
+      skills: ['React.js', 'Flask', 'Node.js', 'pandas', 'NumPy', 'MERN Stack'],
       color: 'from-green-600 to-green-400'
     },
     {
-      title: 'Database & Backend',
-      icon: <Database size={24} />,
-      skills: ['SQL', 'MongoDB', 'Flask', 'RESTful APIs', 'Backend Architecture'],
+      title: 'AI/ML Technologies',
+      icon: <Brain size={24} />,
+      skills: ['Machine Learning', 'Deep Learning', 'NLP', 'BERT', 'GPT-3', 'RAG'],
       color: 'from-purple-600 to-purple-400'
     },
     {
-      title: 'AI/ML & Data Science',
-      icon: <Brain size={24} />,
-      skills: ['Machine Learning', 'Data Analysis', 'Predictive Modeling', 'Python Libraries'],
+      title: 'Data Science & Analytics',
+      icon: <Database size={24} />,
+      skills: ['Data Analysis', 'Predictive Modeling', 'Statistical Analysis', 'Data Visualization'],
       color: 'from-red-600 to-red-400'
     },
     {
-      title: 'Cloud & DevOps',
+      title: 'Tools & Platforms',
       icon: <Cloud size={24} />,
-      skills: ['Cloud Computing', 'Currently Exploring', 'Scalable Solutions', 'Deployment'],
+      skills: ['Git', 'Docker', 'Google Cloud Platform', 'Azure', 'Postman', 'VS Code'],
       color: 'from-cyan-600 to-cyan-400'
     },
     {
@@ -96,6 +96,14 @@ const Skills = () => {
                 <div className="text-left group-hover:translate-x-2 transition-transform duration-300">
                   <h4 className="text-lg font-semibold text-white mb-2 group-hover:text-gray-200 transition-colors duration-300">MERN Stack Certification</h4>
                   <p className="text-gray-400 group-hover:text-gray-300 transition-colors duration-300">Offered by TuteDude</p>
+                </div>
+                <div className="text-left group-hover:translate-x-2 transition-transform duration-300">
+                  <h4 className="text-lg font-semibold text-white mb-2 group-hover:text-gray-200 transition-colors duration-300">Data Science Professional Certificate</h4>
+                  <p className="text-gray-400 group-hover:text-gray-300 transition-colors duration-300">Oracle</p>
+                </div>
+                <div className="text-left group-hover:translate-x-2 transition-transform duration-300">
+                  <h4 className="text-lg font-semibold text-white mb-2 group-hover:text-gray-200 transition-colors duration-300">Azure Data Analytics</h4>
+                  <p className="text-gray-400 group-hover:text-gray-300 transition-colors duration-300">Currently Pursuing</p>
                 </div>
                 <div className="text-left group-hover:translate-x-2 transition-transform duration-300">
                   <h4 className="text-lg font-semibold text-white mb-2 group-hover:text-gray-200 transition-colors duration-300">AI-Hack-Day Finalist</h4>

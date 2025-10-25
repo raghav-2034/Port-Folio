@@ -29,8 +29,8 @@ const Contact = () => {
     {
       icon: <Mail size={24} />,
       title: 'Email',
-      value: 'raghavreddy676@gmail.com',
-      link: 'mailto:raghavreddy676@gmail.com',
+      value: 'raghavendra2034@gmail.com',
+      link: 'mailto:raghavendra2034@gmail.com',
       color: 'from-blue-600 to-blue-400'
     },
     {
@@ -133,19 +133,19 @@ const Contact = () => {
                 <ul className="space-y-2 text-gray-300">
                   <li className="flex items-center gap-2">
                     <div className="w-2 h-2 bg-blue-400 rounded-full"></div>
-                    <span>Full-stack development expertise</span>
+                    <span>AI/ML and Data Science expertise</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <div className="w-2 h-2 bg-green-400 rounded-full"></div>
-                    <span>AI/ML and cloud computing knowledge</span>
+                    <span>Advanced NLP and Machine Learning models</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <div className="w-2 h-2 bg-purple-400 rounded-full"></div>
-                    <span>Strong problem-solving abilities</span>
+                    <span>Full-stack development with cloud technologies</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <div className="w-2 h-2 bg-red-400 rounded-full"></div>
-                    <span>Collaborative and team-oriented</span>
+                    <span>Data-driven solution development</span>
                   </li>
                 </ul>
               </div>

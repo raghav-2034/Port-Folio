@@ -4,9 +4,26 @@ import { ExternalLink, Github, Calendar, Zap } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
+      title: 'AI-Powered Legal Assistant (Legal-Shayak)',
+      period: 'Jun 2024 - Present',
+      description: 'Developing a cutting-edge, full-stack legal assistant using advanced NLP and Machine Learning models. Features document analysis, query resolution, and multilingual support through Bhashini API integration for enhanced accessibility.',
+      technologies: ['Python', 'GPT-3', 'BERT', 'Bhashini API', 'Flask', 'React.js'],
+      features: [
+        'Advanced NLP and ML models (BERT, GPT-3) for document analysis',
+        'Multilingual support via Bhashini API integration',
+        'Full-stack architecture with Flask backend and React frontend',
+        'Intelligent query resolution system',
+        'Enhanced accessibility for legal documentation',
+        'Real-time document processing and analysis'
+      ],
+      color: 'from-purple-600 to-purple-400',
+      status: 'In Development',
+      liveUrl: null
+    },
+    {
       title: 'Mental Health Check-in',
       period: 'Jan 2024 - Feb 2024',
-      description: 'A comprehensive web application designed to support mental wellness through various tools and resources. This platform provides users with meditation guides, mood tracking, stress assessment, community support, and personalized wellness activities.',
+      description: 'A comprehensive web application (Mind-well) designed to support mental wellness through various tools and resources. This platform provides users with meditation guides, mood tracking, stress assessment, and personalized wellness activities.',
       technologies: ['React.js', 'Node.js', 'MongoDB', 'Express.js', 'CSS3'],
       features: [
         'Interactive mood tracking system',
@@ -16,7 +33,8 @@ const Projects = () => {
         'Personalized wellness recommendations'
       ],
       color: 'from-blue-600 to-blue-400',
-      status: 'Completed'
+      status: 'Completed',
+      liveUrl: 'https://lovely-seahorse-1b63ce.netlify.app/'
     },
     {
       title: 'Earthquake Prediction using Machine Learning',
@@ -31,7 +49,8 @@ const Projects = () => {
         'Predictive modeling implementation'
       ],
       color: 'from-red-600 to-red-400',
-      status: 'Completed'
+      status: 'Completed',
+      liveUrl: 'https://quakeiq.netlify.app/'
     },
     {
       title: 'Rubik\'s Cube Simulator',
@@ -47,7 +66,8 @@ const Projects = () => {
         'Responsive React.js frontend'
       ],
       color: 'from-green-600 to-green-400',
-      status: 'Completed'
+      status: 'Completed',
+      liveUrl: null
     }
   ];
 

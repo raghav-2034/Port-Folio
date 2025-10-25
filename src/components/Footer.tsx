@@ -16,8 +16,8 @@ const Footer = () => {
                 <span className="text-gray-400">.dev</span>
               </div>
               <p className="text-gray-400 leading-relaxed mb-4">
-                Full Stack Developer & AI/ML Enthusiast passionate about building innovative solutions 
-                that make a difference.
+                AI/ML Engineer & Data Science Professional passionate about building impactful, 
+                data-driven solutions that make a difference.
               </p>
               <div className="flex items-center gap-2 text-gray-400">
                 <span>Made with</span>
@@ -56,10 +56,10 @@ const Footer = () => {
               <div className="space-y-2 text-gray-400">
                 <p>Hyderabad, Telangana, India</p>
                 <a 
-                  href="mailto:raghavreddy676@gmail.com"
+                  href="mailto:raghavendra2034@gmail.com"
                   className="block hover:text-white transition-colors duration-200"
                 >
-                  raghavreddy676@gmail.com
+                  raghavendra2034@gmail.com
                 </a>
                 <a 
                   href="tel:+919100839784"
